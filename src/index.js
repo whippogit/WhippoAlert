@@ -5,7 +5,7 @@ import cors from "cors";
 const port = process.env.PORT || 3000;
 
 
-app.use(cors({origin: "http://localhost:5173"}));
+app.use(cors({origin: "*"}));
 
 //MongoDB connection
 mongoConnect;

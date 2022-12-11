@@ -5,5 +5,5 @@ dotenv.config();
 
 export const mongoConnect = mongoose
   .connect(process.env.MONGO_URI)
-  .then(() => console.log("Connect to MongoDB Atlas"))
+  .then(() => console.log("🍃 Connect to MongoDB Atlas"))
   .catch((error) => console.error(error));

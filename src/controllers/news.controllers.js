@@ -18,11 +18,9 @@ export const renderIdex = async (req, res) => {
 };
 
 export const apiGradual = async (req, res) => {
-  const news = await News.find()
-    .then((news) => res.json(news))
-    .catch((error) => res.json(error));
+  const news = await News.find();
 
-  res.end(news);
+  res.send({status: "ok", results: news});
 };
 
 export const newsSave = async (req, res) => {

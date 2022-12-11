@@ -4,13 +4,18 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js --exec babel-node",
-    "build": "babel src -d dist && ncp src/views dist/views"
+    "build": "babel src -d dist && ncp src/views dist/views",
+    "start": "node dist/index.js"
   },
   "keywords": [],
   "author": "whippo",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
     "@babel/runtime": "^7.20.6",
+=======
+    "@babel/runtime": "^7.20.1",
+>>>>>>> fbf18528eb30689d71f4be0a2b6c9d4eb221bedd
     "alert": "^5.1.1",
     "cloudinary": "^1.32.0",
     "cors": "^2.8.5",

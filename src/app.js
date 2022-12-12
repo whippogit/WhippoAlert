@@ -4,6 +4,7 @@ import indexRoutes from "./routes/index.routes";
 import path from "path";
 import morgan from "morgan";
 import multer from "multer";
+import cors from "cors";
 
 const app = express();
 
@@ -23,6 +24,7 @@ app.set("view engine", ".hbs");
 app.use(morgan("dev"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
+app.use(cors({ origin: "*" }));
 
 //multer configuration
 const storage = multer.diskStorage({

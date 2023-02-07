@@ -1,11 +1,6 @@
 {
   "outputDirectory": "dist",
-  "builds": [
-    {
-      
-      "use": "@vercel/node"
-    }
-  ],
+  
   "routes": [
     {
       "src": "/[^.]+",

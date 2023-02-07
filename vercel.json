@@ -1,6 +1,11 @@
 {
   "outputDirectory": "dist",
-  
+  "builds": [
+    {
+      "src": "./index.js",
+      "use": "@babel/node"
+    }
+  ],
   "routes": [
     {
       "src": "/[^.]+",

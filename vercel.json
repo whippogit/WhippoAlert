@@ -1,6 +1,6 @@
 {
   "outputDirectory": "dist",
-  "builsd":[
+  "builds":[
     {
       "src": "*.js",
       "use": "@vercel/node"

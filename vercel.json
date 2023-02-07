@@ -1,10 +1,6 @@
 {
   "outputDirectory": "dist",
-  "builds": [
-    {
-      "src": "./index.js"
-    }
-  ],
+  
   "routes": [
     {
       "src": "/[^.]+",

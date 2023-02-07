@@ -2,7 +2,7 @@
   "outputDirectory": "dist",
   "builds": [
     {
-      "src": "./index.js",
+      "src": "dist/index.js",
       "use": "babel"
     }
   ],

@@ -1,5 +1,5 @@
-import app from "./src/app";
-import { mongoConnect } from "./src/database/databs";
+import app from "./app";
+import { mongoConnect } from "./database/databs";
 
 const port = process.env.PORT || 4000;
 

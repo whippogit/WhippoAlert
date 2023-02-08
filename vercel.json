@@ -1,5 +1,5 @@
 {
-  "outputDirectory": "dist",
+  "outputDirectory": "src",
   "builds": [
     {
       "src": "./index.js",

@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js --exec babel-node",
-    "build": "babel src -d dist && ncp src/views dist/views",
+    "build": "node src -d dist && ncp src/views dist/views",
     "start": "node dist/index.js"
     
   },
